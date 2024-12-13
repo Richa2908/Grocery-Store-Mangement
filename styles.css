@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:url(image.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 5rem;
+    color:white;
+    text-align: center;
+}
+
+/* Form Styling */
+#form-container {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+}
+
+#form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#form-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+#form-container button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#form-container button:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+#table-container {
+    width: 90%;
+    overflow-x: auto;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#grocery-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#grocery-table th,
+#grocery-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#grocery-table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+#grocery-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#grocery-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action Buttons */
+#grocery-table button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#grocery-table button:hover {
+    opacity: 0.8;
+}
+
+#grocery-table button:first-child {
+    background-color: #4caf50;
+    color: white;
+}
+
+#grocery-table button:last-child {
+    background-color: #f44336;
+    color: white;
+}
